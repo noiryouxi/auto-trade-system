@@ -1,4 +1,6 @@
 package io.noiryouxi.trade_system.outbound.exchange;
 
-public interface ExchangeClient {
+public interface Exchange {
+
+    void createOrder();
 }

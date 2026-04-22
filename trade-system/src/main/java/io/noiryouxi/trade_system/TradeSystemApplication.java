@@ -10,10 +10,4 @@ public class TradeSystemApplication {
 		SpringApplication.run(TradeSystemApplication.class, args);
 	}
 
-//	@Bean
-//    CommandLineRunner init(TradingEngine tradingEngine) {
-//		return args -> {
-//			tradingEngine.start();
-//		};
-//	}
 }
